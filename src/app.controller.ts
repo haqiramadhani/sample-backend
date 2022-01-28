@@ -18,6 +18,6 @@ export class AppController {
 
   @Get('analytics')
   getAnalytics() {
-    this.appService.getAnalytics();
+    return this.appService.getAnalytics();
   }
 }

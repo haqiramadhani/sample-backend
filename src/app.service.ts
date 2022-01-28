@@ -29,7 +29,6 @@ export class AppService {
   }
 
   getAnalytics() {
-    console.log('getAnalytics - ANALYTICS');
     return this.analyticsClient.send({ cmd: 'get_analytics' }, {});
   }
 }
